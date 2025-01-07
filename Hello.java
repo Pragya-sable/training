@@ -5,6 +5,7 @@ Scanner kb=new Scanner(System.in);
 int a=kb.nextInt();
 int b=kb.nextInt();
 
+System.out.println("Addition "+(a+b));
 
 
 
