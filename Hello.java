@@ -1,7 +1,12 @@
 import java.util.*;
-class Hello{
+class Addition{
 public static void main(String[]args){
+Scanner kb=new Scanner(System.in);
+int a=kb.nextInt();
+int b=kb.nextInt();
+int add=0;
+add=a+b;
 
-System.out.println("Hello World ");
+System.out.println("Addition "+add);
 }
 }
